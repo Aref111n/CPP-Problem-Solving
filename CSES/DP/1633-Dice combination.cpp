@@ -26,6 +26,6 @@ int main() {
                 dp[i] = (dp[i]+dp[i-6])%mod ;
         }
  
-        cout << dp[n] << endl ;
+        cout << dp[n] << endl;
     }
 }
